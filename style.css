@@ -1,0 +1,114 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: plum;
+}
+
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: palegreen url("https://www.crushpixel.com/big-static16/preview4/mobile-banking-app-flat-vector-2445551.jpg") no-repeat center center;
+    z-index: 99999;
+}
+
+.bg-light{
+    background-color: honeydew!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', Bold;
+    font-size: 1.5rem;
+    color: black!important;
+}
+
+.nav-link{
+    color: palevioletred!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: oldlace;
+}
+
+
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: lightsalmon;
+    color: khaki!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: lightseagreen;
+    
+}
+
+.get-started-content{
+    height: 60vh;
+    background-color: orange;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: lightslategray;
+    color: lightpink!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: blue;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  lavender;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: gold;
+}
+
+.linkedin{
+    color: forestgreen;
+}
+
+.google{
+    color: blanchedalmond;
+}
